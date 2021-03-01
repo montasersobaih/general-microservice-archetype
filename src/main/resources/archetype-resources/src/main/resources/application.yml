@@ -1,0 +1,8 @@
+server:
+  port: 9090
+  servlet:
+    context-path: "/general"
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/general
